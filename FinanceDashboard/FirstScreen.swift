@@ -52,7 +52,7 @@ struct FirstScreen: View {
             
             //Body
             RoundedRectangle(cornerRadius: 25.0)
-                .frame(width: 350, height: 150)
+                .frame(width: 380, height: 150)
                 .foregroundColor(.indigo)
                 .overlay(
                     VStack {
