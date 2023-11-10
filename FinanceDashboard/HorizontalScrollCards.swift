@@ -14,7 +14,7 @@ struct HorizontalScrollCards: View {
             HStack {
                 RoundedRectangle(cornerRadius: 30)
                     .frame(width: 200, height: 150)
-                    .foregroundColor(.indigo)
+                    .foregroundColor(.teal)
                     .overlay(
                         VStack(alignment: .leading){
                             HStack {
