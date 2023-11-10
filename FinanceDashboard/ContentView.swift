@@ -115,38 +115,7 @@ struct ContentView: View {
             }
             
             //Horzontal scroll body cards
-            ScrollView(.horizontal) {
-                RoundedRectangle(cornerRadius: 30)
-                    .frame(width: 200, height: 150)
-                    .foregroundColor(.indigo)
-                    .overlay(
-                        VStack(alignment: .leading){
-                            HStack {
-                                Image(systemName: "creditcard.fill")
-                                    .foregroundColor(.white)
-                                    .font(.title)
-                                    .bold()
-                                
-                                VStack(alignment: .leading) {
-                                    Text("$10.00")
-                                        .foregroundColor(.white)
-                                        .bold()
-                                        .font(.title2)
-                                    Text("Per month")
-                                        .foregroundColor(.white)
-                                        .bold()
-                                        .font(.title3)
-                                }
-                            } .padding()
-                            
-                            Text("Valorant")
-                                .font(.title2)
-                                .bold()
-                                .foregroundColor(.white)
-                                .padding(.horizontal)
-                        }
-                    )
-            }
+           HorizontalScrollCards()
             
         }
         .padding()
