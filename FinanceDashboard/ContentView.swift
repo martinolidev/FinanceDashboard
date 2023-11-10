@@ -15,13 +15,18 @@ struct ContentView: View {
         VStack {
             //Top bar
             HStack {
-                Circle()
-                    .frame(width: 50)
-                    .overlay(
-                        Image(systemName: "person.fill")
-                            .foregroundColor(.white)
-                            .font(.title)
-                    )
+                Button {
+                    //
+                } label: {
+                    Circle()
+                        .foregroundColor(.white)
+                        .frame(width: 50)
+                        .overlay(
+                            Image(systemName: "person.fill")
+                                .foregroundColor(.black)
+                                .font(.title)
+                        )
+                }
                 
                 Text("Martin Martinez")
                     .font(.title2)
@@ -29,17 +34,20 @@ struct ContentView: View {
                 
                 Spacer()
                 
-                Circle()
-                    .stroke(Color.black, lineWidth: 2.0)
-                    .frame(width: 50)
-                    .overlay(
-                        Image(systemName: "plus")
-                            .resizable()
-                            .scaledToFit()
-                            .frame(width: 20)
-                            .font(.title)
-                            .bold()
-                    )
+                Button {
+                    //
+                } label: {
+                    Circle()
+                        .stroke(Color.black, lineWidth: 2)
+                        .frame(width: 50)
+                        .foregroundColor(.clear)
+                        .overlay(
+                            Image(systemName: "plus")
+                                .bold()
+                                .font(.title2)
+                                .foregroundColor(.black)
+                        )
+                }
             }
             
             //Body
@@ -84,6 +92,29 @@ struct ContentView: View {
 
                     }
                 )
+            
+            HStack {
+                Text("Upcoming")
+                    .font(.title2)
+                    .bold()
+                Spacer()
+                Button {
+                    //
+                } label: {
+                    RoundedRectangle(cornerRadius: 25.0)
+                        .stroke(Color.black, lineWidth: 2)
+                        .frame(width: 100, height: 30)
+                        .foregroundColor(.clear)
+                        .overlay(
+                            Text("View All")
+                                .foregroundColor(.black)
+                                .bold()
+                        )
+                        
+                }
+                
+                
+            }
             
         }
         .padding()
