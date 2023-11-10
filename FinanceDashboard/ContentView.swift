@@ -139,59 +139,7 @@ struct ContentView: View {
             }
             
             ScrollView {
-                Grid {
-                    GridRow {
-                        RoundedRectangle(cornerRadius: 10)
-                            .frame(height: 80)
-                            .foregroundColor(.pink)
-                            .overlay(
-                                HStack {
-                                    Image(systemName: "laptopcomputer")
-                                        .font(.title)
-                                        .foregroundColor(.white)
-                                        .bold()
-                                        
-                                    
-                                    VStack(alignment: .leading) {
-                                        Text("Macbook Air")
-                                            .font(.title2)
-                                        Text("November 1, 10:00 pm")
-                                            .font(.footnote)
-                                    }
-                                    .foregroundColor(.white)
-                                    .bold()
-                                    .padding(.horizontal)
-                                    
-                                    VStack {
-                                        Text("$100.00")
-                                            .font(.title2)
-                                        Text("Per month")
-                                            .font(.footnote)
-                                    }
-                                    .foregroundColor(.white)
-                                    .bold()
-                                    .padding(.horizontal)
-                                }
-                            )
-                    }
-                    
-                    GridRow {
-                        RoundedRectangle(cornerRadius: 10)
-                            .frame(height: 80)
-                            .foregroundColor(.yellow)
-                    }
-                    
-                    GridRow {
-                        RoundedRectangle(cornerRadius: 10)
-                            .frame(height: 80)
-                            .foregroundColor(.mint)
-                    }
-                    GridRow {
-                        RoundedRectangle(cornerRadius: 10)
-                            .frame(height: 80)
-                            .foregroundColor(.cyan)
-                    }
-                }
+                VerticalScrollCards()
             }
 
         }
