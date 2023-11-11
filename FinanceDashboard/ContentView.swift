@@ -22,10 +22,10 @@ struct ContentView: View {
                         Image(systemName: "cart")
                         Text("Cart")
                     }
-                FirstScreen()
+                WalletScreen()
                     .tabItem {
                         Image(systemName: "dollarsign.circle")
-                        Text("Payment")
+                        Text("Wallet")
                     }
                 FirstScreen()
                     .tabItem {
