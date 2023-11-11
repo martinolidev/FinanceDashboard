@@ -24,7 +24,7 @@ struct ContentView: View {
                     }
                 FirstScreen()
                     .tabItem {
-                        Image(systemName: "creditcard")
+                        Image(systemName: "dollarsign.circle")
                         Text("Payment")
                     }
                 FirstScreen()
