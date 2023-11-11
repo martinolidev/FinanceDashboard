@@ -27,11 +27,6 @@ struct ContentView: View {
                         Image(systemName: "dollarsign.circle")
                         Text("Wallet")
                     }
-                FirstScreen()
-                    .tabItem {
-                        Image(systemName: "gearshape")
-                        Text("Settings")
-                    }
             }
             .accentColor(.black)
             
