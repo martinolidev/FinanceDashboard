@@ -17,7 +17,7 @@ struct ContentView: View {
                             .foregroundColor(Color.black)
                         Text("Home")
                     }
-                FirstScreen()
+                CartScreen()
                     .tabItem {
                         Image(systemName: "cart")
                         Text("Cart")
