@@ -11,10 +11,8 @@ This method payments can be hidden :D and this is how it looks like
 
 <img width="325" alt="Screenshot 2023-11-11 at 12 08 48 p m" src="https://github.com/martinolidev/FinanceDashboard/assets/149841273/ebbb895b-0ee8-4a8f-a866-2a35e190cac2">
 
-
-
-<img width="346" alt="Screenshot 2023-11-11 at 12 07 31 p m" src="https://github.com/martinolidev/FinanceDashboard/assets/149841273/de0bc891-0f4d-4a01-9349-8390e4f96f1f">
-
 This is the cart screen, I'd like to add a function to remove items from it.
+
+<img width="335" alt="image" src="https://github.com/martinolidev/FinanceDashboard/assets/149841273/ec10330b-ef53-4494-a461-569f9b17ebc7">
 
 
