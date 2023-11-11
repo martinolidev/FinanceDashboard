@@ -14,6 +14,7 @@
 		883BA6392AFEBED0006FB764 /* FinanceDashboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883BA6382AFEBED0006FB764 /* FinanceDashboardTests.swift */; };
 		883BA6432AFEBED0006FB764 /* FinanceDashboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883BA6422AFEBED0006FB764 /* FinanceDashboardUITests.swift */; };
 		883BA6452AFEBED0006FB764 /* FinanceDashboardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883BA6442AFEBED0006FB764 /* FinanceDashboardUITestsLaunchTests.swift */; };
+		88749A332AFFF177005332F8 /* CartScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88749A322AFFF177005332F8 /* CartScreen.swift */; };
 		889D9D1D2AFECD7600CC980C /* HorizontalScrollCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889D9D1C2AFECD7600CC980C /* HorizontalScrollCards.swift */; };
 		889D9D1F2AFED44D00CC980C /* VerticalScrollCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889D9D1E2AFED44D00CC980C /* VerticalScrollCards.swift */; };
 		889D9D212AFED75900CC980C /* FirstScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889D9D202AFED75900CC980C /* FirstScreen.swift */; };
@@ -47,6 +48,7 @@
 		883BA63E2AFEBED0006FB764 /* FinanceDashboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinanceDashboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		883BA6422AFEBED0006FB764 /* FinanceDashboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceDashboardUITests.swift; sourceTree = "<group>"; };
 		883BA6442AFEBED0006FB764 /* FinanceDashboardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceDashboardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		88749A322AFFF177005332F8 /* CartScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartScreen.swift; sourceTree = "<group>"; };
 		889D9D1C2AFECD7600CC980C /* HorizontalScrollCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalScrollCards.swift; sourceTree = "<group>"; };
 		889D9D1E2AFED44D00CC980C /* VerticalScrollCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalScrollCards.swift; sourceTree = "<group>"; };
 		889D9D202AFED75900CC980C /* FirstScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreen.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 			children = (
 				883BA6272AFEBECF006FB764 /* FinanceDashboardApp.swift */,
 				883BA6292AFEBECF006FB764 /* ContentView.swift */,
+				88749A322AFFF177005332F8 /* CartScreen.swift */,
 				889D9D202AFED75900CC980C /* FirstScreen.swift */,
 				889D9D1E2AFED44D00CC980C /* VerticalScrollCards.swift */,
 				889D9D1C2AFECD7600CC980C /* HorizontalScrollCards.swift */,
@@ -269,6 +272,7 @@
 				889D9D1D2AFECD7600CC980C /* HorizontalScrollCards.swift in Sources */,
 				883BA62A2AFEBECF006FB764 /* ContentView.swift in Sources */,
 				889D9D1F2AFED44D00CC980C /* VerticalScrollCards.swift in Sources */,
+				88749A332AFFF177005332F8 /* CartScreen.swift in Sources */,
 				883BA6282AFEBECF006FB764 /* FinanceDashboardApp.swift in Sources */,
 				889D9D212AFED75900CC980C /* FirstScreen.swift in Sources */,
 			);
