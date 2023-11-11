@@ -36,6 +36,52 @@ struct CartScreen: View {
                     .font(.title)
                     .bold()
             }
+            
+            //body
+            
+            ScrollView {
+                VerticalScrollCards()
+            }
+            
+            HStack {
+                Text("Total: $439.99")
+                    .font(.title)
+                    .bold()
+                
+                Spacer()
+            }
+            
+            HStack {
+                Button {
+                    //
+                } label: {
+                    RoundedRectangle(cornerRadius: 25.0)
+                        .frame(height: 70)
+                        .foregroundColor(.green)
+                        .overlay(
+                            Image(systemName: "dollarsign.circle")
+                                .foregroundColor(.white)
+                                .font(.title)
+                                .bold()
+                        )
+                }
+                
+                Button {
+                    //
+                } label: {
+                    RoundedRectangle(cornerRadius: 25.0)
+                        .frame(height: 70)
+                        .foregroundColor(.red)
+                        .overlay(
+                            Image(systemName: "trash")
+                                .foregroundColor(.white)
+                                .font(.title)
+                                .bold()
+                        )
+                }
+            }
+            
+            
         }
         .padding()
     }
