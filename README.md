@@ -1,6 +1,11 @@
 # FinanceDashboard
 My second SwiftUI practice project, this time a dashboard with a finance summary
 
+![image](https://github.com/martinolidev/FinanceDashboard/assets/149841273/7d9ff1c9-f821-4e57-9b0c-abb6677fa7bd)
+
+
+
+
 ![Image 10-11-23 at 3 52 p m](https://github.com/martinolidev/FinanceDashboard/assets/149841273/c940909d-7edf-4507-8a67-c9e55fe4d15c)
 
 ### I finished the little project, I added new screens :D
